@@ -5,8 +5,8 @@ class Person:
         print("Привет, меня зовут", self.name)
  
 person1 = Person()
-person1.display_info()         # Привет, меня зовут Tom
- 
+person1.display_info()
+
 person2 = Person()
 person2.name = "Sam"
-person2.display_info()         # Привет, меня зовут Sam
+person2.display_info()         
